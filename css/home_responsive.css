@@ -1,0 +1,568 @@
+@media only screen and (max-width: 1279px) {}
+@media only screen and (max-width: 991px){
+    .slider-area .slick-dots {
+        bottom: 15px;
+    }
+    .slider-area  .homeBannerimg {
+        min-height: 300px;
+        aspect-ratio: 2/3;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    h1{
+        font-size: 32px;
+    }
+ 
+    .mNavbar {
+        display: block;
+        float: right;
+        cursor: pointer;
+        line-height: 79px;
+        cursor: pointer;
+    }
+
+    label i {
+        margin-left: 5px;
+    }
+
+    nav {
+        padding: 0px;
+    }
+
+    nav .logo img {
+        width: 130px;
+    }
+
+    nav ul {
+        margin-right: 0px;
+        float: left;
+    }
+
+    nav .logo {
+        padding-left: 40px;
+
+    }
+
+    ul.navshowlist {
+        border-top: 1px solid #DADFE3;
+        padding-top: 10px;
+    }
+   
+    ul.navshowlist > li > a {
+        font-size: 17px;
+        width: 70%;
+        display: block;
+        padding-left: 30px;
+    }
+    ul.navshowlist > li  span{
+        position: absolute;
+        right: 13px;
+        top: 15px;
+        width: 29%;
+        text-align: right;
+    }
+    ul.navshowlist > li:hover > span i {
+        transform: none;
+    }
+    ul.navshowlist ul {
+        padding-left: 30px;
+    }
+    .redorder {
+
+        border-left: 2px solid #D0342B;
+    }
+    ul.navshowlist >li .redorder + span i{
+        transform: rotate(180deg);
+    }
+
+
+    .navshowlist li label i {
+        position: relative;
+        float: right;
+        top: 13px;
+        right: 13px;
+    }
+
+    ul.navshowlist,
+    #navDesktop {
+        display: none;
+    }
+
+    nav ul li,
+    nav ul ul li {
+        display: block;
+        width: 100%;
+
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    nav ul ul li a {
+        line-height: 40px;
+    }
+
+    nav ul li a {
+        line-height: 50px;
+    }
+
+    nav ul li a:hover {
+        box-shadow: none;
+    }
+
+    .navshow {
+        display: block;
+        color: #0F397E;
+        ;
+        font-size: 18px;
+        line-height: 40px;
+        cursor: pointer;
+    }
+
+
+    .icon {
+        display: block;
+        color: #0F397E;
+        position: absolute;
+        top: 0;
+        left: 14px;
+        line-height: 80px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+
+    nav ul ul {
+        top: 70px;
+        border: none;
+        float: none;
+        position: static;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+        box-shadow: none;
+    }
+
+    nav ul ul:after {
+        border: none;
+        background-color: unset;
+    }
+
+    nav ul ul a {
+        padding-left: 0px;
+    }
+
+    nav ul ul ul a {
+        padding-left: 80px;
+    }
+
+    nav ul ul ul li {
+        position: static;
+    }
+
+    [id^=navbtn]:checked+ul {
+        display: block;
+        width: 100%;
+    }
+
+    nav ul ul li {
+        border-bottom: 1px solid #DADFE3;
+    }
+
+    nav ul ul li:last-child {
+        border-bottom: none;
+    }
+
+
+    .mNavbar .mIcon {
+        font-size: 25px;
+        margin-right: 8px;
+        vertical-align: middle;
+    }
+
+    .mNavbar .mIcon a {
+        color: #3AA9FF;
+    }
+
+    .quickBar ul li {
+        min-width: 125px;
+        text-align: center;
+        margin-right: 2px;
+    }
+
+    .quickBar ul li:nth-child(1) {
+        margin-left: 2px;
+    }
+
+
+    .quickBar ul::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .footergrup .t-footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .telmblgap {
+        margin-top: 10px;
+    }
+
+    .accordion {
+        display: block;
+    }
+
+    .panel {
+        display: none;
+        margin-top: 15px;
+        border-top: 1px solid #ccc;
+        transition: top .3s;
+    }
+
+    .showDesktop {
+        display: none;
+    }
+
+    .listGroup {
+
+        border-bottom: 1px solid #ccc;
+        width: 95%;
+
+    }
+
+    .listGroup.last,
+    .footergrup .m-footer {
+        border: none;
+    }
+
+    .footergrup .m-footer>ul,
+    .footergrup .m-footer>ul ul {
+        display: block;
+    }
+
+    .footergrup .m-footer ul ul li {
+        display: inline-block;
+    }
+
+    .footergrup .m-footer {
+        padding-top: 10px;
+    }
+
+    .footergrup .m-footer ul p {
+        margin-bottom: 10px;
+    }
+
+    .footergrup .m-footer ul li {
+        margin-bottom: 20px;
+    }
+
+    .footergrup .m-footer {
+        margin: 2% 5% 0 8%;
+    }
+
+    .footergrup .b-footer {
+        flex-direction: column;
+        padding: 3% 8%;
+    }
+
+    .footergrup .b-footer .l-part p {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .footergrup .t-footer {
+        padding: 5% 6% 0 6%;
+        ;
+    }
+
+    .footergrup .t-footer .listGroup ul {
+        margin-top: 13px;
+    }
+
+    ul.panel li:last-child {
+        margin-bottom: 29px;
+    }
+
+    .footergrup .t-footer .listGroup>p {
+        padding: 15px 0;
+    }
+
+    .footergrup .t-footer .listGroup>p:hover {
+        cursor: pointer;
+    }
+
+    .footerActive {
+        border-top: none;
+        display: block;
+    }
+
+
+
+   
+
+   
+
+    .wrapper>.card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        padding-left: 0%;
+        padding-top: 5%;
+    }
+
+    .content .group-content {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .content ul {
+        width: 100%;
+        text-align: left;
+    }
+
+    .wrapper-reverse {
+        flex-direction: column;
+    }
+
+    .quickBar ul li .tooltip {
+        top: 0;
+    }
+
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /*navbar css responsive*/
+
+    #userModal {
+        top: 60px;
+        right: 15px;
+        width: 110px;
+        position: absolute;
+        border: 1px solid #000;
+        position: absolute;
+        background: #fff;
+        border: 1px solid #DADFE3;
+        border-top: 3px solid #D0342B;
+        box-shadow: 0px 2px 6px #3d3939;
+        transition: top .3s;
+        z-index: 999;
+    }
+
+    #userModal ul li {
+        margin: 0 5px;
+        display: list-item;
+        border-bottom: 1px solid #DADFE3;
+        width: 100px;
+
+    }
+
+    #userModal ul li a {
+        line-height: 40px;
+        font-size: 15px;
+        color: #22262B;
+
+
+    }
+
+
+
+    .slidertext button a {
+        color: #fff;
+    }
+
+
+    .quickBar ul li a:hover .tooltip {
+        display: block;
+    }
+
+
+
+    .wrapper>.card {
+        flex-direction: column;
+    }
+
+    .wrapperbtn {
+        margin-top: 20px;
+    }
+
+    .content {
+        padding-left: 0%;
+        padding-top: 5%;
+    }
+
+    .content .group-content,
+    .content ul,
+    .content .btn,
+    .text .btn,
+    .modal-content .btn {
+        width: 100%;
+    }
+
+    .content .btn {
+        margin-bottom: 10px;
+    }
+
+    .wrapper-reverse {
+        flex-direction: column !important;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+
+    #appModal .modal-content .brodband button,
+    #appModal .modal-content .digital button {
+        margin-bottom: 15px;
+    }
+
+   
+
+
+
+    .content .group-content {
+        text-align: left;
+    }
+
+    #appModal .modal-content {
+        width: 90%;
+        padding: 20px 10px;
+    }
+
+    #appModal .modal-content .brodband button,
+    #appModal .modal-content .digital button {
+        margin-right: 5px;
+    }
+
+    #appModal .modal-content .brodband button:last-child,
+    #appModal .modal-content .digital button:last-child {
+        margin-right: 0;
+    }
+}
+
+/*extra small mobole device for hero slider*/
+
+
+@media only screen and (max-width: 575px) {
+    .bannerContent{
+        top: 15px;
+        left: 15px;
+        transform: translateY(0%);
+        bottom: 0;
+        right: 15px;
+    }
+
+    .sliderbtn {
+        position: absolute;
+        left: 0;
+        bottom: 60px;
+        right: 15px;
+    }
+    .slider-area .btn {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .slider-area .slick-dots {
+        bottom: 5px;
+    }
+    .sliderbtn{
+        bottom: 43px;
+    }
+    .quickBar ul {
+        overflow: hidden;
+    }
+    .quickBar ul li p {
+        max-width: 80%;
+        margin: auto;
+    }
+    .quickBar ul li a {
+        font-size: 12px;
+    }
+
+    .slick-slide img.webonly {
+
+        display: none;
+
+    }
+
+    .slick-slide img.mwebonly {
+
+        display: block;
+
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    nav .logo {
+        padding-left: 30px;
+    }
+
+    .mNavbar .mIcon {
+        margin-right: 0px;
+    }
+
+
+}
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    nav .logo img {
+        width: 206px;
+    }
+
+    .panel {
+        display: block !important;
+        transition: top .3s;
+
+    }
+
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+    .slick-slide img.webonly {
+        height: 28vh;
+    }
+
+ 
+
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+    .panel {
+        display: block !important;
+        transition: top .3s;
+    }
+}
