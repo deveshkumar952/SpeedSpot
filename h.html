@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aurangabad Location Map</title>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+	<div id="map" style="height: 100vh;"></div>
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+	<script>
+		var map = L.map('map').setView([19.8762, 75.3429], 13); /* set the map view to Aurangabad */
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+			subdomains: ['a', 'b', 'c']
+		}).addTo(map);
+	</script>
+</body>
+</html>
